@@ -39,12 +39,13 @@ body {
 .home__p {
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    font-size: 15px;
-    text-align: center; /* Centraliza o texto horizontalmente */
-    line-height: 1.5; /* Melhora o espaçamento entre as linhas */
+    text-align: center; 
+    line-height: 1.2; 
+    max-width: 600px; 
+    margin: 0 auto; 
 }
 
-.home__btn__c, .home__btn__e {
+.home__btn__c {
     width: 200px;
     height: 50px;
     border-radius: 15px;
@@ -55,13 +56,23 @@ body {
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-primaria);
     font-size: 20px;
-    font-weight: bold; /* Define o texto em negrito */
+    font-weight: bold; 
     gap: 10px;
-    text-align: center; /* Centraliza o texto no botão */
+    text-align: center; 
 }
 
 .home__btn__e {
-    font-size: 18px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-primaria);
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: var(--cor-secundaria);
+    padding: 10px;
+    cursor: pointer;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    font-size: 20px; 
+    gap: 10px;
+    text-align: center; 
 }
