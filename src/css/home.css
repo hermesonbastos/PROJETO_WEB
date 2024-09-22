@@ -34,14 +34,16 @@ body {
 .home__h1 {
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
+    font-weight:300;
 }
 
 .home__p {
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     text-align: center; 
+    font-size: 18px;
     line-height: 1.2; 
-    max-width: 600px; 
+    max-width: 500px; 
     margin: 0 auto; 
 }
 
