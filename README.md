@@ -1,7 +1,7 @@
 # TecnoHUB 💻
 
-Bem-vindos ao **TecnoHUB**, o ponto de encontro dos estudantes de tecnologia!
-Aqui, o conhecimento é compartilhado livremente.
+Bem-vindos ao **TecnoHUB**, o ponto de encontro dos estudantes de tecnologia!  
+Aqui, o conhecimento é compartilhado livremente.  
 Explore cursos gratuitos, artigos, eBooks, PDFs e recursos criados por alunos.
 
 Junte-se a nós para aprender, ensinar e colaborar em projetos de TI que moldam o futuro!
