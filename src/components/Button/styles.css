@@ -29,3 +29,11 @@
   gap: 10px;
   text-align: center; 
 }
+
+.btn-primary:hover {
+  background-color: var(--cor-hover-primaria);  
+}
+
+.btn-secondary:hover {
+  background-color: var(--cor-hover-secundaria);
+}

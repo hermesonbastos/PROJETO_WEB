@@ -6,7 +6,8 @@
     --cor-primaria: #0E1133;
     --cor-secundaria:#ffffff;
     --cor-terciaria: #E1A225;
-    --cor-hover: #45486e;
+    --cor-hover-primaria: #ffbb32;
+    --cor-hover-secundaria: #11163e;
 
     --fonte-primaria: "JetBrains Mono", monospace;
     --fonte-secundaria: "Roboto", sans-serif;
