@@ -1,0 +1,47 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 15px;
+  padding: 0 15%;
+}
+
+.home__h1 {
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-primaria);
+}
+
+.home__p {
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-secundaria);
+  text-align: center;
+  line-height: 1.2;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ffff00,
+    #2571ff,
+    #ff0000,
+    #ffff00
+  );
+  background-size: 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
