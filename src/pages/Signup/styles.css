@@ -20,6 +20,13 @@
 
 .signup-container form {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container form button {
+  width: 100%;
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
