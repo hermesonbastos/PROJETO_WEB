@@ -11,7 +11,11 @@ Junte-se a nós para aprender, ensinar e colaborar em projetos de TI que moldam 
 ## Nosso time:
 
 [Felipe de Sousa](https://github.com/fixlipw)
+
 [Hermeson Bastos](https://github.com/hermesonbastos)
+
 [Iara Lima](https://github.com/iaraslima)
+
 [Mariana Oliveira](https://github.com/MarianaOliveiraFelipe)
+
 [Mariana Pereira](https://github.com/Mariana-Pereiraa)
