@@ -1,0 +1,30 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: var(--cor-primaria); 
+  }
+  
+  .search__container {
+    width: 45%; 
+    height: 100vh; 
+    border-left: 1px solid var(--cor-secundaria); 
+    border-right: 1px solid var(--cor-secundaria); 
+    background-color: var(--cor-primaria); 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .search__title {
+    text-align: left; 
+    color: var(--cor-secundaria); 
+    font-family: var(--fonte-primaria);
+    margin-top: 0; 
+    padding-bottom: 5px; 
+    border-bottom: 2px solid var(--cor-terciaria); 
+    width: 70%; 
+  }
+  
