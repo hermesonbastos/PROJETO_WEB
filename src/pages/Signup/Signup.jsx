@@ -20,12 +20,8 @@ const Signup = () => {
         <Input label="nome" type="text" name="username" {...name} />
         <Input label="email" type="email" name="email" {...email} />
         <Input label="senha" type="password" name="password" {...password} />
-<<<<<<< Updated upstream
-=======
         <Button className="btn-primary" label="CADASTRAR" />
->>>>>>> Stashed changes
       </form>
-      <Button className="btn-primary" label="CONHECER" />
     </div>
   </div>
 }
