@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import Button from '../../components/Button/Button';
 import Input from '../../components/Input/Input';
 import useForm from '../../hooks/useForm';
@@ -8,7 +9,11 @@ const Login = () => {
   const email = useForm("email");
   const password = useForm("password");
 
-  const handleSubmit = () => {
+  const navigate = useNavigate();
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/feed");
 
   }
 

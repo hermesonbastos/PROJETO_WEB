@@ -33,3 +33,20 @@
   font-size: 0.875rem;
   margin-top: 0.25rem;
 }
+
+.search-input {
+  width: 180px; 
+  height: 30px; 
+  padding: 5px;
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.search-input::placeholder {
+  color: var(--cor-terciaria);
+  opacity: 1; 
+  font-family: var(--fonte-primaria);
+  font-size: 15px;
+  font-weight: bold; 
+}
