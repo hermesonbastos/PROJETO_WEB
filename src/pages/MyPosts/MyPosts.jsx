@@ -11,7 +11,7 @@ const MyPosts = () => {
   }
 
   const handleBack = () => {
-    navigate(-1); // Volta para a página anterior
+    navigate(-1); 
   };
 
   return (
