@@ -17,20 +17,19 @@ const MyPosts = () => {
   return (
     <div className="myposts">
       <div className="myposts-container">
-        <div className="myposts-header">
-          <h1 className="myposts-title">Minhas Publicações</h1>
-          <div className="button-group">
+        <div className="myposts-header" style={{ display: 'flex', alignItems: 'center' }}>
+            <h1 className="myposts-title">Minhas Publicações</h1>
             <button 
-              className="btn-public" 
-              onClick={handlePublic}> 
-              + Publicar
-            </button>
-            <button 
-              className="btn-public-back" 
-              onClick={handleBack}> 
-              Voltar
-            </button>
-          </div>
+                className="btn-public" onClick={handlePublic}> 
+                + Publicar
+            </button>  
+        </div>
+        <div>
+          <button 
+            className="btn-public-back" 
+            onClick={handleBack}> 
+            Voltar
+          </button>
         </div>
       </div>
     </div>
