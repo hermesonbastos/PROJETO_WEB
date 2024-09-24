@@ -37,3 +37,47 @@
 .btn-secondary:hover {
   background-color: var(--cor-hover-secundaria);
 }
+
+.btn-public {
+  width: 150px; /* Reduzindo a largura */
+  height: 40px; /* Reduzindo a altura */
+  border-radius: 10px; /* Diminuindo as bordas arredondadas */
+  border: 2px solid;
+  border-color: var(--cor-terciaria);
+  padding: 5px; /* Reduzindo o espaçamento interno */
+  cursor: pointer;
+  background-color: var(--cor-terciaria);
+  font-family: var(--fonte-primaria);
+  font-size: 16px; /* Reduzindo o tamanho da fonte */
+  font-weight: bold; 
+  text-align: center; 
+  margin-left: 10px; /* Espaço entre o título e o botão */
+}
+
+.btn-public-back {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: var(--cor-secundaria);
+  padding: 5px;
+  cursor: pointer;
+  background-color: var(--cor-primaria);
+  font-family: var(--fonte-primaria);
+  color: var(--cor-secundaria);
+  font-size: 16px; 
+  /* gap: 10px; */
+  text-align: center; 
+  /* margin-top: 20px; Espaço acima do botão de Voltar */
+}
+
+.button-container {
+  margin-top: auto; /* Isso empurra o botão para a parte inferior */
+  display: flex;
+  justify-content: flex-end; /* Alinha o botão à direita */
+}
+
+.button-group {
+  display: flex; /* Flexbox para os botões */
+  margin-left: auto; /* Empurra os botões para a direita */
+}
