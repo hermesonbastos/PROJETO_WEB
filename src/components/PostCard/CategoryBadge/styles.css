@@ -1,0 +1,13 @@
+.category-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 24px;
+  border-radius: 10px;
+  background-color: #31DFFF;
+}
+
+.category-span {
+  font-weight: 500;
+  color: var(--cor-primaria);
+}

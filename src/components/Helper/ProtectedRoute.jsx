@@ -1,6 +1,6 @@
 import React from "react";
-import { UserContext } from "../../UserContext";
 import { Navigate } from "react-router-dom";
+import { UserContext } from "../../context/UserContext";
 
 const ProtectedRoute = ({ children }) => {
   const { login } = React.useContext(UserContext);
@@ -8,7 +8,7 @@ const ProtectedRoute = ({ children }) => {
   if (login === true) {
     return children;
   } else if (login === false) {
-    return <Navigate to="/login" />;
+    return <Navigate to="/" />;
   } else {
     return <></>;
   }

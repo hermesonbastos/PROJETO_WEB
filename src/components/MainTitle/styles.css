@@ -1,0 +1,6 @@
+.main-title {
+  font-family: var(--fonte-primaria);
+  font-size: 36px;
+  color: white;
+  border-bottom: solid 3px var(--cor-terciaria);
+}
