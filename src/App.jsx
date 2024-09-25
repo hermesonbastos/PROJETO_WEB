@@ -8,6 +8,9 @@ import Feed from "./pages/Feed/Feed";
 import Search from "./pages/Search/Search";
 import ProtectedRoute from "./components/Helper/ProtectedRoute";
 import UserStorage from "./context/UserContext";
+import MyPosts from "./pages/MyPosts/MyPosts"
+
+
 
 function App() {
   return (
@@ -26,7 +29,7 @@ function App() {
             }
           />
           <Route path="*" element={<Home />} />
-          {/* <Route path="/feed" element={<Search />} /> */}
+          <Route path="/myposts" element={<MyPosts />}/>
         </Routes>
       </UserStorage>
     </BrowserRouter>
