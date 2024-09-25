@@ -27,7 +27,7 @@ const Signup = () => {
       password: password.value,
     });
     const { response } = await request(url, options);
-    if (response.ok) userLogin(name.value, password.value);
+    if (response.ok) userLogin(email.value, password.value);
     if (response?.ok) navigate("/feed");
   }
 

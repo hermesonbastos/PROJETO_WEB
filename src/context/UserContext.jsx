@@ -17,12 +17,12 @@ export const UserStorage = ({ children }) => {
     window.localStorage.removeItem("token");
   }, []);
 
-  async function userLogin(username, password) {
+  async function userLogin(email, password) {
     try {
       setError(null);
       setLoading(true);
 
-      const { url, options } = LOGIN({ username, password });
+      const { url, options } = LOGIN({ email, password });
       const tokenRes = await fetch(url, options);
 
       if (!tokenRes.ok) throw new Error(`Error: ${tokenRes.statusText}`);

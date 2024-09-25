@@ -21,6 +21,10 @@
   box-shadow: 0 0 0 3px #fea;
 }
 
+.textarea {
+  resize: vertical;
+}
+
 .label {
   display: block;
   font-size: 1rem;

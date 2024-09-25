@@ -9,7 +9,7 @@ const Login = () => {
 
   const { userLogin } = useContext(UserContext);
 
-  const email = useForm("email");
+  const email = useForm();
   const password = useForm("password");
 
   const handleSubmit = (e) => {
